@@ -15,8 +15,16 @@ function distanceTravelledInFeet(blockNumber){
   
   
 }
+function distanceTravelledInFeet (start, destination) {
+  if (start < destination) {
+    return (destination - start) * 264;
+  } else {
+    return (start - destination) * 264;
+  }
+}
 
-calculatesFarePrice(start, destination){
-  
+function calculatesFarePrice(start, destination){
+  const distance = distanceTravelledInFeet(start, destination);
+  if(){}
   
 }
