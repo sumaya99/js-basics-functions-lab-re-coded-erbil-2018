@@ -15,3 +15,8 @@ function distanceTravelledInFeet(blockNumber){
   
   
 }
+
+calculatesFarePrice(start, destination){
+  
+  
+}
